@@ -1,0 +1,31 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\target\out\jvm\scala-2.13.14\codea2_v2-0\classes.bak
+[debug] About to delete class files:
+[debug] 	ControlUnit.class
+[debug] 	ALU$$anon$1.class
+[debug] 	CPUTop$$anon$1.class
+[debug] 	RegisterFile$$anon$1.class
+[debug] 	ControlUnit$$anon$1.class
+[debug] 	ALU.class
+[debug] 	CPUTop.class
+[debug] 	RegisterFile.class
+[debug] We backup class files:
+[debug] 	ControlUnit.class
+[debug] 	ALU$$anon$1.class
+[debug] 	CPUTop$$anon$1.class
+[debug] 	RegisterFile$$anon$1.class
+[debug] 	ControlUnit$$anon$1.class
+[debug] 	ALU.class
+[debug] 	CPUTop.class
+[debug] 	RegisterFile.class
+[debug] Rolling back changes to class files.
+[debug] Removing generated classes:
+[debug] Restoring class files: 
+[debug] 	CPUTop.class
+[debug] 	CPUTop$$anon$1.class
+[debug] 	ALU$$anon$1.class
+[debug] 	ALU.class
+[debug] 	RegisterFile$$anon$1.class
+[debug] 	ControlUnit.class
+[debug] 	RegisterFile.class
+[debug] 	ControlUnit$$anon$1.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\target\out\jvm\scala-2.13.14\codea2_v2-0\classes.bak

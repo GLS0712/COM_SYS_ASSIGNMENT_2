@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\target\out\jvm\scala-2.13.14\codea2_v2-0\test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Images$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Images.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Images$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Images.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Images$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Images.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\target\out\jvm\scala-2.13.14\codea2_v2-0\test-classes.bak[0m

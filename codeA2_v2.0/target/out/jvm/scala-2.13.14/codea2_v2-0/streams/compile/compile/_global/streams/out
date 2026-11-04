@@ -1,100 +1,43 @@
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ALU.scala:23:8: not found: value ALUOps
-[error]     is(ALUOps.ADD)   { io.result := io.in1 + io.in2 }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ALU.scala:24:8: not found: value ALUOps
-[error]     is(ALUOps.SUB)   { io.result := io.in1 - io.in2 }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ALU.scala:25:8: not found: value ALUOps
-[error]     is(ALUOps.MUL)   { io.result := (io.in1 * io.in2)(31, 0) }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ALU.scala:26:8: not found: value ALUOps
-[error]     is(ALUOps.PASS2) { io.result := io.in2 }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ALU.scala:27:8: not found: value ALUOps
-[error]     is(ALUOps.EQ)    { io.cmp := io.in1 === io.in2 }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ALU.scala:28:8: not found: value ALUOps
-[error]     is(ALUOps.LT)    { io.cmp := io.in1 < io.in2 }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ALU.scala:29:8: not found: value ALUOps
-[error]     is(ALUOps.GT)    { io.cmp := io.in1 > io.in2 }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:25:22: not found: value ALUOps
-[error]   io.aluOperation := ALUOps.ADD
-[error]                      ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:33:29: not found: value Opcodes
-[error]   val isEnd = io.opcode === Opcodes.END
-[error]                             ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:40:8: not found: value Opcodes
-[error]     is(Opcodes.ADD)  { io.aluOperation := ALUOps.ADD; io.regWrite := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:40:43: not found: value ALUOps
-[error]     is(Opcodes.ADD)  { io.aluOperation := ALUOps.ADD; io.regWrite := true.B }
-[error]                                           ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:41:8: not found: value Opcodes
-[error]     is(Opcodes.SUB)  { io.aluOperation := ALUOps.SUB; io.regWrite := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:41:43: not found: value ALUOps
-[error]     is(Opcodes.SUB)  { io.aluOperation := ALUOps.SUB; io.regWrite := true.B }
-[error]                                           ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:42:8: not found: value Opcodes
-[error]     is(Opcodes.MULT) { io.aluOperation := ALUOps.MUL; io.regWrite := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:42:43: not found: value ALUOps
-[error]     is(Opcodes.MULT) { io.aluOperation := ALUOps.MUL; io.regWrite := true.B }
-[error]                                           ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:45:8: not found: value Opcodes
-[error]     is(Opcodes.ADDI) { io.aluOperation := ALUOps.ADD;   io.immediate := true.B; io.regWrite := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:45:43: not found: value ALUOps
-[error]     is(Opcodes.ADDI) { io.aluOperation := ALUOps.ADD;   io.immediate := true.B; io.regWrite := true.B }
-[error]                                           ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:46:8: not found: value Opcodes
-[error]     is(Opcodes.SUBI) { io.aluOperation := ALUOps.SUB;   io.immediate := true.B; io.regWrite := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:46:43: not found: value ALUOps
-[error]     is(Opcodes.SUBI) { io.aluOperation := ALUOps.SUB;   io.immediate := true.B; io.regWrite := true.B }
-[error]                                           ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:47:8: not found: value Opcodes
-[error]     is(Opcodes.MULI) { io.aluOperation := ALUOps.MUL;   io.immediate := true.B; io.regWrite := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:47:43: not found: value ALUOps
-[error]     is(Opcodes.MULI) { io.aluOperation := ALUOps.MUL;   io.immediate := true.B; io.regWrite := true.B }
-[error]                                           ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:48:8: not found: value Opcodes
-[error]     is(Opcodes.LI)   { io.aluOperation := ALUOps.PASS2; io.immediate := true.B; io.regWrite := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:48:43: not found: value ALUOps
-[error]     is(Opcodes.LI)   { io.aluOperation := ALUOps.PASS2; io.immediate := true.B; io.regWrite := true.B }
-[error]                                           ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:51:8: not found: value Opcodes
-[error]     is(Opcodes.LD)   { io.readData := true.B; io.regWrite := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:53:8: not found: value Opcodes
-[error]     is(Opcodes.SD)   { io.aluOperation := ALUOps.ADD; io.immediate := true.B; io.writeData := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:53:43: not found: value ALUOps
-[error]     is(Opcodes.SD)   { io.aluOperation := ALUOps.ADD; io.immediate := true.B; io.writeData := true.B }
-[error]                                           ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:55:8: not found: value Opcodes
-[error]     is(Opcodes.JR)   { io.jump := true.B }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:61:8: not found: value Opcodes
-[error]     is(Opcodes.JEQ)  { io.branch := true.B; io.aluOperation := ALUOps.EQ }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:61:64: not found: value ALUOps
-[error]     is(Opcodes.JEQ)  { io.branch := true.B; io.aluOperation := ALUOps.EQ }
-[error]                                                                ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:62:8: not found: value Opcodes
-[error]     is(Opcodes.JLT)  { io.branch := true.B; io.aluOperation := ALUOps.GT }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:62:64: not found: value ALUOps
-[error]     is(Opcodes.JLT)  { io.branch := true.B; io.aluOperation := ALUOps.GT }
-[error]                                                                ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:63:8: not found: value Opcodes
-[error]     is(Opcodes.JGT)  { io.branch := true.B; io.aluOperation := ALUOps.LT }
-[error]        ^
-[error] C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:63:64: not found: value ALUOps
-[error]     is(Opcodes.JGT)  { io.branch := true.B; io.aluOperation := ALUOps.LT }
-[error]                                                                ^
-[error] 33 errors found
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:58:3: not found: value switch[0m
+[0m[[0m[31merror[0m] [0m[0m  switch(io.opcode) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:60:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.ADD)  { io.aluOperation := ALUOps.ADD; io.regWrite := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:61:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.SUB)  { io.aluOperation := ALUOps.SUB; io.regWrite := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:62:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.MULT) { io.aluOperation := ALUOps.MUL; io.regWrite := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:65:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.ADDI) { io.aluOperation := ALUOps.ADD;   io.immediate := true.B; io.regWrite := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:66:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.SUBI) { io.aluOperation := ALUOps.SUB;   io.immediate := true.B; io.regWrite := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:67:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.MULI) { io.aluOperation := ALUOps.MUL;   io.immediate := true.B; io.regWrite := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:68:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.LI)   { io.aluOperation := ALUOps.PASS2; io.immediate := true.B; io.regWrite := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:71:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.LD)   { io.readData := true.B; io.regWrite := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:73:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.SD)   { io.aluOperation := ALUOps.ADD; io.immediate := true.B; io.writeData := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:75:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.JR)   { io.jump := true.B }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:81:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.JEQ)  { io.branch := true.B; io.aluOperation := ALUOps.EQ }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:82:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.JLT)  { io.branch := true.B; io.aluOperation := ALUOps.GT }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\ControlUnit.scala:83:5: not found: value is[0m
+[0m[[0m[31merror[0m] [0m[0m    is(Opcodes.JGT)  { io.branch := true.B; io.aluOperation := ALUOps.LT }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m

@@ -1,0 +1,241 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec bf4b24b1-3022-4175-beb8-8d30525d536c __014f0156-32aa-46e6-b79a-e914a703f96d, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly CPUTopTester, Some(__014f0156-32aa-46e6-b79a-e914a703f96d), Some(CommandSource(network-5)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing sbt/exec"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"7","parents":[]},"eventTime":1793791899990,"message":"Compiling codea2_v2-0","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\target\out\jvm\scala-2.13.14\codea2_v2-0\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\gusta\\Desktop\\COM_SYS_ASSIGNMENT_2\\codeA2_v2.0\\target\\out\\jvm\\scala-2.13.14\\codea2_v2-0\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900190,"message":"Compiling codea2_v2-0 (10%)","total":29,"progress":10,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900190,"message":"Compiling codea2_v2-0 (10%)","total":29,"progress":10,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900608,"message":"Compiling codea2_v2-0 (20%)","total":29,"progress":20,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900609,"message":"Compiling codea2_v2-0 (20%)","total":29,"progress":20,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900783,"message":"Compiling codea2_v2-0 (55%)","total":29,"progress":55,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900784,"message":"Compiling codea2_v2-0 (55%)","total":29,"progress":55,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 05e24528-0b25-41b6-a007-0f5088f3f756, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900919,"message":"Compiling codea2_v2-0 (65%)","total":29,"progress":65,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900920,"message":"Compiling codea2_v2-0 (65%)","total":29,"progress":65,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900979,"message":"Compiling codea2_v2-0 (75%)","total":29,"progress":75,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791900979,"message":"Compiling codea2_v2-0 (75%)","total":29,"progress":75,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791901235,"message":"Compiling codea2_v2-0 (100%)","total":29,"progress":100,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"7","parents":[]},"eventTime":1793791901238,"message":"Compiling codea2_v2-0 (100%)","total":29,"progress":100,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"7","parents":[]},"eventTime":1793791901404,"message":"Compiled codea2_v2-0","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"},"errors":0,"warnings":0,"time":1414,"noOp":false}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"8","parents":[]},"eventTime":1793791901485,"message":"Compiling codea2_v2-0-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"8","parents":[]},"eventTime":1793791901499,"message":"Compiled codea2_v2-0-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Test"},"errors":0,"warnings":0,"time":14,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testSelected CPUTopTester, None, Some(CommandSource(network-5)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testSelected[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"9","parents":[]},"eventTime":1793791901745,"message":"Compiling codea2_v2-0","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"9","parents":[]},"eventTime":1793791901765,"message":"Compiled codea2_v2-0","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Compile"},"errors":0,"warnings":0,"time":20,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"10","parents":[]},"eventTime":1793791901816,"message":"Compiling codea2_v2-0-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"10","parents":[]},"eventTime":1793791901831,"message":"Compiled codea2_v2-0-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/gusta/Desktop/COM_SYS_ASSIGNMENT_2/codeA2_v2.0/#codea2_v2-0/Test"},"errors":0,"warnings":0,"time":15,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2a1d29c5-7e9a-4b75-a363-fd0e0a807c34, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3d3d1426-fc32-44d0-aa3f-f25316993bd1, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, c9a949f5-dad1-4f3d-bb05-eb8e74c29346, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 0c443e33-9901-4bb6-be50-5e3ce5c0d183, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCPUTopTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCPUTopTester[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mCPUTopTester *** ABORTED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ExceptionInInitializerError:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.run(Thread.java:1583)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cause: java.lang.NumberFormatException: For input string: "X" under radix 16[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Integer.parseInt(Integer.java:662)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.math.BigInteger.<init>(BigInteger.java:547)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.math.BigInt$.apply(BigInt.scala:100)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.package$fromStringToLiteral.parse(package.scala:114)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.package$fromStringToLiteral.asUInt(package.scala:103)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.package$fromStringToLiteral.U(package.scala:92)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Programs$.<clinit>(Programs.scala:8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mCPUTopTester:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mCPUTopTester\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31mCPUTopTester *** ABORTED ***\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  java.lang.ExceptionInInitializerError:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at java.base/java.lang.Thread.run(Thread.java:1583)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  ...\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  Cause: java.lang.NumberFormatException: For input string: \"X\" under radix 16\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at java.base/java.lang.Integer.parseInt(Integer.java:662)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at java.base/java.math.BigInteger.<init>(BigInteger.java:547)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at scala.math.BigInt$.apply(BigInt.scala:100)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at chisel3.package$fromStringToLiteral.parse(package.scala:114)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at chisel3.package$fromStringToLiteral.asUInt(package.scala:103)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at chisel3.package$fromStringToLiteral.U(package.scala:92)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at Programs$.<clinit>(Programs.scala:8)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  ...\u001b[0m"})[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.ExceptionInInitializerError[0m
+[0m[[0m[31merror[0m] [0m[0m	at CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:1583)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.NumberFormatException: For input string: "X" under radix 16[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Integer.parseInt(Integer.java:662)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.math.BigInteger.<init>(BigInteger.java:547)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.math.BigInt$.apply(BigInt.scala:100)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chisel3.package$fromStringToLiteral.parse(package.scala:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chisel3.package$fromStringToLiteral.asUInt(package.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chisel3.package$fromStringToLiteral.U(package.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Programs$.<clinit>(Programs.scala:8)[0m
+[0m[[0m[31merror[0m] [0m[0m	at CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:1583)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"java.lang.ExceptionInInitializerError\r\n\tat CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)\r\n\tat CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)\r\n\tat chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)\r\n\tat chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)\r\n\tat chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)\r\n\tat chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\nCaused by: java.lang.NumberFormatException: For input string: \"X\" under radix 16\r\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\r\n\tat java.base/java.lang.Integer.parseInt(Integer.java:662)\r\n\tat java.base/java.math.BigInteger.<init>(BigInteger.java:547)\r\n\tat scala.math.BigInt$.apply(BigInt.scala:100)\r\n\tat chisel3.package$fromStringToLiteral.parse(package.scala:114)\r\n\tat chisel3.package$fromStringToLiteral.asUInt(package.scala:103)\r\n\tat chisel3.package$fromStringToLiteral.U(package.scala:92)\r\n\tat Programs$.<clinit>(Programs.scala:8)\r\n\tat CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)\r\n\tat CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)\r\n\tat chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)\r\n\tat chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)\r\n\tat chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)\r\n\tat chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)"})[0m
+[0m[[0m[31merror[0m] [0m[0mCould not run test CPUTopTester: java.lang.ExceptionInInitializerError[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"Could not run test CPUTopTester: java.lang.ExceptionInInitializerError"})[0m
+[0m[[0m[0minfo[0m] [0m[0mEndTestGroupErrorEvent(CPUTopTester, n[0m
+[0m[[0m[0minfo[0m] [0m[0mu[0m
+[0m[[0m[0minfo[0m] [0m[0ml[0m
+[0m[[0m[0minfo[0m] [0m[0ml[0m
+[0m[[0m[0minfo[0m] [0m[0m[[0m
+[0m[[0m[0minfo[0m] [0m[0mL[0m
+[0m[[0m[0minfo[0m] [0m[0mj[0m
+[0m[[0m[0minfo[0m] [0m[0ma[0m
+[0m[[0m[0minfo[0m] [0m[0mv[0m
+[0m[[0m[0minfo[0m] [0m[0ma[0m
+[0m[[0m[0minfo[0m] [0m[0m.[0m
+[0m[[0m[0minfo[0m] [0m[0ml[0m
+[0m[[0m[0minfo[0m] [0m[0ma[0m
+[0m[[0m[0minfo[0m] [0m[0mn[0m
+[0m[[0m[0minfo[0m] [0m[0mg[0m
+[0m[[0m[0minfo[0m] [0m[0m.[0m
+[0m[[0m[0minfo[0m] [0m[0mS[0m
+[0m[[0m[0minfo[0m] [0m[0mt[0m
+[0m[[0m[0minfo[0m] [0m[0ma[0m
+[0m[[0m[0minfo[0m] [0m[0mc[0m
+[0m[[0m[0minfo[0m] [0m[0mk[0m
+[0m[[0m[0minfo[0m] [0m[0mT[0m
+[0m[[0m[0minfo[0m] [0m[0mr[0m
+[0m[[0m[0minfo[0m] [0m[0ma[0m
+[0m[[0m[0minfo[0m] [0m[0mc[0m
+[0m[[0m[0minfo[0m] [0m[0me[0m
+[0m[[0m[0minfo[0m] [0m[0mE[0m
+[0m[[0m[0minfo[0m] [0m[0ml[0m
+[0m[[0m[0minfo[0m] [0m[0me[0m
+[0m[[0m[0minfo[0m] [0m[0mm[0m
+[0m[[0m[0minfo[0m] [0m[0me[0m
+[0m[[0m[0minfo[0m] [0m[0mn[0m
+[0m[[0m[0minfo[0m] [0m[0mt[0m
+[0m[[0m[0minfo[0m] [0m[0m;[0m
+[0m[[0m[0minfo[0m] [0m[0m@[0m
+[0m[[0m[0minfo[0m] [0m[0m4[0m
+[0m[[0m[0minfo[0m] [0m[0m1[0m
+[0m[[0m[0minfo[0m] [0m[0mb[0m
+[0m[[0m[0minfo[0m] [0m[0m8[0m
+[0m[[0m[0minfo[0m] [0m[0me[0m
+[0m[[0m[0minfo[0m] [0m[0ma[0m
+[0m[[0m[0minfo[0m] [0m[0mf[0m
+[0m[[0m[0minfo[0m] [0m[0m6)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"EndTestGroupErrorEvent(CPUTopTester, n\nu\nl\nl\n[\nL\nj\na\nv\na\n.\nl\na\nn\ng\n.\nS\nt\na\nc\nk\nT\nr\na\nc\ne\nE\nl\ne\nm\ne\nn\nt\n;\n@\n4\n1\nb\n8\ne\na\nf\n6)"})[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.NullPointerException: Cannot invoke "sbt.testing.Selector.getClass()" because "other" is null[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.JUnitXmlTestsListener$TestSuite.$anonfun$2(JUnitXmlTestsListener.scala:158)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.StrictOptimizedIterableOps.strictOptimizedMap(StrictOptimizedIterableOps.scala:102)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.StrictOptimizedIterableOps.strictOptimizedMap$(StrictOptimizedIterableOps.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ListBuffer.strictOptimizedMap(ListBuffer.scala:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ListBuffer.map(ListBuffer.scala:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.JUnitXmlTestsListener$TestSuite.stop(JUnitXmlTestsListener.scala:145)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.JUnitXmlTestsListener.$anonfun$7(JUnitXmlTestsListener.scala:318)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.map(Option.scala:244)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.JUnitXmlTestsListener.withTestSuite(JUnitXmlTestsListener.scala:224)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.JUnitXmlTestsListener.writeSuite(JUnitXmlTestsListener.scala:318)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.JUnitXmlTestsListener.endGroup(JUnitXmlTestsListener.scala:288)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestRunner.run$$anonfun$4(TestFramework.scala:175)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.safeForeach$$anonfun$1(TestFramework.scala:198)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.VectorStatics$.foreachRec(Vector.scala:2127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.Vector.foreach(Vector.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.safeForeach(TestFramework.scala:197)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestRunner.safeListenersCall(TestFramework.scala:184)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestRunner.run(TestFramework.scala:175)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.$anon$superArg$1$1$$anonfun$1$$anonfun$1(TestFramework.scala:320)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.withContextLoader(TestFramework.scala:306)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.$anon$superArg$1$1$$anonfun$1(TestFramework.scala:320)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFunction.apply(TestFramework.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Tests$.$anonfun$9(Tests.scala:450)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$.sbt$std$Transform$$anon$1$$_$apply$$anonfun$1(Transform.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$2.work(Transform.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$2.work(Transform.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.submit$$anonfun$1$$anonfun$1(Execute.scala:283)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:294)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.submit$$anonfun$1(Execute.scala:283)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$2(ConcurrentRestrictions.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:1583)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"java.lang.NullPointerException: Cannot invoke \"sbt.testing.Selector.getClass()\" because \"other\" is null\r\n\tat sbt.JUnitXmlTestsListener$TestSuite.$anonfun$2(JUnitXmlTestsListener.scala:158)\r\n\tat scala.collection.StrictOptimizedIterableOps.strictOptimizedMap(StrictOptimizedIterableOps.scala:102)\r\n\tat scala.collection.StrictOptimizedIterableOps.strictOptimizedMap$(StrictOptimizedIterableOps.scala:29)\r\n\tat scala.collection.mutable.ListBuffer.strictOptimizedMap(ListBuffer.scala:42)\r\n\tat scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:90)\r\n\tat scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:29)\r\n\tat scala.collection.mutable.ListBuffer.map(ListBuffer.scala:42)\r\n\tat sbt.JUnitXmlTestsListener$TestSuite.stop(JUnitXmlTestsListener.scala:145)\r\n\tat sbt.JUnitXmlTestsListener.$anonfun$7(JUnitXmlTestsListener.scala:318)\r\n\tat scala.Option.map(Option.scala:244)\r\n\tat sbt.JUnitXmlTestsListener.withTestSuite(JUnitXmlTestsListener.scala:224)\r\n\tat sbt.JUnitXmlTestsListener.writeSuite(JUnitXmlTestsListener.scala:318)\r\n\tat sbt.JUnitXmlTestsListener.endGroup(JUnitXmlTestsListener.scala:288)\r\n\tat sbt.TestRunner.run$$anonfun$4(TestFramework.scala:175)\r\n\tat scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)\r\n\tat scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)\r\n\tat sbt.TestFramework$.safeForeach$$anonfun$1(TestFramework.scala:198)\r\n\tat scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)\r\n\tat scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)\r\n\tat scala.collection.immutable.VectorStatics$.foreachRec(Vector.scala:2127)\r\n\tat scala.collection.immutable.Vector.foreach(Vector.scala:307)\r\n\tat sbt.TestFramework$.safeForeach(TestFramework.scala:197)\r\n\tat sbt.TestRunner.safeListenersCall(TestFramework.scala:184)\r\n\tat sbt.TestRunner.run(TestFramework.scala:175)\r\n\tat sbt.TestFramework$.$anon$superArg$1$1$$anonfun$1$$anonfun$1(TestFramework.scala:320)\r\n\tat sbt.TestFramework$.withContextLoader(TestFramework.scala:306)\r\n\tat sbt.TestFramework$.$anon$superArg$1$1$$anonfun$1(TestFramework.scala:320)\r\n\tat sbt.TestFunction.apply(TestFramework.scala:332)\r\n\tat sbt.Tests$.$anonfun$9(Tests.scala:450)\r\n\tat sbt.std.Transform$.sbt$std$Transform$$anon$1$$_$apply$$anonfun$1(Transform.scala:50)\r\n\tat sbt.std.Transform$$anon$2.work(Transform.scala:70)\r\n\tat sbt.std.Transform$$anon$2.work(Transform.scala:70)\r\n\tat sbt.Execute.submit$$anonfun$1$$anonfun$1(Execute.scala:283)\r\n\tat sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)\r\n\tat sbt.Execute.work(Execute.scala:294)\r\n\tat sbt.Execute.submit$$anonfun$1(Execute.scala:283)\r\n\tat sbt.ConcurrentRestrictions$$anon$4.$anonfun$2(ConcurrentRestrictions.scala:269)\r\n\tat sbt.CompletionService$$anon$2.call(CompletionService.scala:75)\r\n\tat sbt.CompletionService$$anon$2.call(CompletionService.scala:73)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\r\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)"})[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.NullPointerException: Cannot invoke "sbt.testing.Selector.getClass()" because "other" is null[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"java.lang.NullPointerException: Cannot invoke \"sbt.testing.Selector.getClass()\" because \"other\" is null"})[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.ExceptionInInitializerError[0m
+[0m[[0m[31merror[0m] [0m[0m	at CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:1583)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.NumberFormatException: For input string: "X" under radix 16[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Integer.parseInt(Integer.java:662)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.math.BigInteger.<init>(BigInteger.java:547)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.math.BigInt$.apply(BigInt.scala:100)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chisel3.package$fromStringToLiteral.parse(package.scala:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chisel3.package$fromStringToLiteral.asUInt(package.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chisel3.package$fromStringToLiteral.U(package.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Programs$.<clinit>(Programs.scala:8)[0m
+[0m[[0m[31merror[0m] [0m[0m	at CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:1583)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"java.lang.ExceptionInInitializerError\r\n\tat CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)\r\n\tat CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)\r\n\tat chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)\r\n\tat chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)\r\n\tat chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)\r\n\tat chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\nCaused by: java.lang.NumberFormatException: For input string: \"X\" under radix 16\r\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\r\n\tat java.base/java.lang.Integer.parseInt(Integer.java:662)\r\n\tat java.base/java.math.BigInteger.<init>(BigInteger.java:547)\r\n\tat scala.math.BigInt$.apply(BigInt.scala:100)\r\n\tat chisel3.package$fromStringToLiteral.parse(package.scala:114)\r\n\tat chisel3.package$fromStringToLiteral.asUInt(package.scala:103)\r\n\tat chisel3.package$fromStringToLiteral.U(package.scala:92)\r\n\tat Programs$.<clinit>(Programs.scala:8)\r\n\tat CPUTopTester.$anonfun$new$3(CPUTopTester.scala:38)\r\n\tat CPUTopTester.$anonfun$new$3$adapted(CPUTopTester.scala:11)\r\n\tat chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)\r\n\tat chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)\r\n\tat chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)\r\n\tat chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)"})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId None: {"code":-32603,"message":"(Test / \u001b[31mtestSelected\u001b[0m) java.lang.ExceptionInInitializerError"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestSelected[0m) java.lang.ExceptionInInitializerError[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Test / \u001b[31mtestSelected\u001b[0m) java.lang.ExceptionInInitializerError"})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult bf4b24b1-3022-4175-beb8-8d30525d536c, Some(bf4b24b1-3022-4175-beb8-8d30525d536c), Some(CommandSource(network-5)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing sbt/exec"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/exec, {"status":"Queued","channelName":"network-5","execId":"2bb2a4c8-cfa7-4357-8730-cd2ecc013d04","commandQueue":[],"message":"waiting for: shell"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])[0m

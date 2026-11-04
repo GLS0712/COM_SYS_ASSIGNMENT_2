@@ -1,6 +1,27 @@
 import chisel3._
 import chisel3.util._
 
+object Opcodes {
+  val ADD  = "b001001".U(6.W)
+  val SUB  = "b001010".U(6.W)
+  val MULT = "b001011".U(6.W)
+
+  val ADDI = "b001100".U(6.W)
+  val SUBI = "b001101".U(6.W)
+  val MULI = "b001110".U(6.W)
+  val LI   = "b010001".U(6.W)
+
+  val LD = "b010010".U(6.W)
+  val SD = "b010100".U(6.W)
+
+  val JR  = "b100001".U(6.W)
+  val JEQ = "b100010".U(6.W)
+  val JLT = "b100011".U(6.W)
+  val JGT = "b100100".U(6.W)
+  val NOP = "b100101".U(6.W)
+  val END = "b100110".U(6.W)
+}
+
 // Task 8: combinational decoder. Signal names follow the architecture drawing.
 // Defaults describe a NOP, so each instruction only sets what it needs.
 class ControlUnit extends Module {

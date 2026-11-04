@@ -80,8 +80,8 @@ class ControlUnit extends Module {
     //   Rs <  Rt  <=>  in1 >  in2
     //   Rs >  Rt  <=>  in1 <  in2
     is(Opcodes.JEQ)  { io.branch := true.B; io.aluOperation := ALUOps.EQ }
-    is(Opcodes.JLT)  { io.branch := true.B; io.aluOperation := ALUOps.GT }
-    is(Opcodes.JGT)  { io.branch := true.B; io.aluOperation := ALUOps.LT }
+    is(Opcodes.JLT)  { io.branch := true.B; io.aluOperation := ALUOps.LT }
+    is(Opcodes.JGT)  { io.branch := true.B; io.aluOperation := ALUOps.GT }
 
     // NOP, END and unknown opcodes keep the defaults
   }

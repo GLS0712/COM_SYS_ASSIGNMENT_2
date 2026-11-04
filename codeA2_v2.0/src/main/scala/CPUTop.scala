@@ -74,7 +74,7 @@ class CPUTop extends Module {
   alu.io.in2 := Mux(
     controlUnit.io.immediate,
     immediate,
-    registerFile.io.regout3
+    registerFile.io.regout2
   )
 
   // Data memory
@@ -86,7 +86,7 @@ class CPUTop extends Module {
   registerFile.io.writeSel := Mux(
     controlUnit.io.readData,
     instruction(20, 16), // LD destination: Rt
-    instruction(25, 21)  // ALU destination: Rs
+    instruction(15, 11)  // ALU destination: Rs
   )
   registerFile.io.writeData := Mux(
     controlUnit.io.readData,

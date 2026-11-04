@@ -30,7 +30,7 @@ LI R6, 255;                          // Make white
 JR 31; 
 LI R6, 0;                             //Erode / Remove
 ADDI R9, R5, 400;                     // Exit Memory Point
-SD R7, R9;                            // Store in memory
+SD R6, R9;                            // Store in memory
 ADDI R4, R4, 1;     // small increment
 JR 4;    
 ADDI R3, R3, 1;     // Big increment

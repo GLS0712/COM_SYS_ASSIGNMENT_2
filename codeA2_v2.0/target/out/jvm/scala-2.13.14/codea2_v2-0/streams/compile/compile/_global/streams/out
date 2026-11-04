@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\gusta\Desktop\COM_SYS_ASSIGNMENT_2\codeA2_v2.0\src\main\scala\CPUTop.scala:81:35: value regout1 is not a member of chisel3.Bundle{val sel: chisel3.UInt; val in1: chisel3.UInt; val in2: chisel3.UInt; val result: chisel3.UInt; val cmp: chisel3.Bool}[0m
-[0m[[0m[31merror[0m] [0m[0m  dataMemory.io.address := alu.io.regout1(15, 0)[0m
-[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

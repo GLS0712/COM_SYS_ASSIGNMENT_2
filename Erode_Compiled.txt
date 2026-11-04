@@ -1,0 +1,50 @@
+LI R1, 19;      // for loop max (always 19)
+LI R2, 0;       // for loop min (always 0)
+LI R3, 0;       // for loop 1 count (BIG) (x)
+LI R4, 0;       // for loop 2 count (SMALL) (y)
+JGT 38, R3, R1;       // GO TO END IF BIG FOR LOOP IS  "END" Last
+JGT 36, R4, R1;          // increment Big loop if small loop is done
+MULTI R5, R4, 20;  
+ADD R5, R5, R3;                // R5 is coordinate in memory
+LD R6, R5;                     // loads R6 as pixel value
+JEQ 15, R3, R1;                // test if edge
+JEQ 15, R3, R2;
+JEQ 15, R4, R1;
+JEQ 15, R4, R2;
+JR 16;
+LI R6, 0;                       // R6 is result / pixel value 
+JEQ 31, R6, R2; 
+ADDI R7, R5, 1;                      // neighbor x+1 Coordinate in memory
+LD R8, R7;                           // neighbor x+1 Value 
+JEQ 31, R8, R2;
+SUBI R7, R5, 1;                      // neighbor x-1 Coordinate in memory
+LD R8, R7;                           // neighbor x-1 Value 
+JEQ 31, R8, R2;
+ADDI R7, R5, 20;                     // neighbor y+1 Coordinate in memory
+LD R8, R7;                           // neighbor y+1 Value 
+JEQ 31, R8, R2; 
+SUBI R7, R5, 20;                     // neighbor y-1 Coordinate in memory
+LD R8, R7;                           // neighbor y-1 Value 
+JEQ 31, R8, R2; 
+LI R6, 255;                          // Make white
+JR 32; 
+LI R6, 0;                             //Erode / Remove
+ADDI R9, R5, 400;                     // Exit Memory Point
+SD R6, R9;                            // Store in memory
+ADDI R4, R4, 1;     // small increment
+JR 5;    
+ADDI R3, R3, 1;     // Big increment
+JR 4;           
+END;            // END
+
+
+
+This is the compiled erosion, using the isa in the report
+Each pixel is at the adress (x,y) = x + y * 20  so (0,0) is at 0 and (19,19) is at 19 + 20*19 = 399
+R1 is 19
+R2 is 0 
+R3 is x 
+R4 is y
+R5 is (x,y) in memory
+R6 is result
+

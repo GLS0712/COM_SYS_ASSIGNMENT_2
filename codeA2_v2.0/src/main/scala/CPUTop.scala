@@ -70,7 +70,7 @@ class CPUTop extends Module {
 
   // ALU
   alu.io.sel := controlUnit.io.aluOperation
-  alu.io.in1 := registerFile.io.regout2
+  alu.io.in1 := registerFile.io.regout1
   alu.io.in2 := Mux(
     controlUnit.io.immediate,
     immediate,
@@ -84,7 +84,7 @@ class CPUTop extends Module {
 
   // Register write-back
   registerFile.io.writeSel := Mux(
-    controlUnit.io.readData,
+    controlUnit.io.readData || controlUnit.io.immediate,
     instruction(20, 16), // LD destination: Rt
     instruction(15, 11)  // ALU destination: Rs
   )

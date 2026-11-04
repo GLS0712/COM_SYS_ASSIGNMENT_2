@@ -9,18 +9,18 @@ circuit CPUTop :
     input io_programCounterJump : UInt<16> @[\\src\\main\\scala\\ProgramCounter.scala 5:14]
     output io_programCounter : UInt<16> @[\\src\\main\\scala\\ProgramCounter.scala 5:14]
 
-    reg ProgramNext : UInt<32>, clock with :
+    reg ProgramNext : UInt<16>, clock with :
       reset => (UInt<1>("h0"), ProgramNext) @[\\src\\main\\scala\\ProgramCounter.scala 14:28]
     node _T = eq(io_run, UInt<1>("h1")) @[\\src\\main\\scala\\ProgramCounter.scala 15:17]
-    node _T_1 = eq(io_jump, UInt<1>("h1")) @[\\src\\main\\scala\\ProgramCounter.scala 15:35]
+    node _T_1 = eq(io_jump, UInt<1>("h1")) @[\\src\\main\\scala\\ProgramCounter.scala 15:36]
     node _T_2 = and(_T, _T_1) @[\\src\\main\\scala\\ProgramCounter.scala 15:25]
     node _T_3 = eq(io_run, UInt<1>("h1")) @[\\src\\main\\scala\\ProgramCounter.scala 17:24]
     node _ProgramNext_T = add(io_programCounter, UInt<1>("h1")) @[\\src\\main\\scala\\ProgramCounter.scala 18:40]
     node _ProgramNext_T_1 = tail(_ProgramNext_T, 1) @[\\src\\main\\scala\\ProgramCounter.scala 18:40]
     node _GEN_0 = mux(_T_3, _ProgramNext_T_1, io_programCounter) @[\\src\\main\\scala\\ProgramCounter.scala 17:32 18:19 20:19]
-    node _GEN_1 = mux(_T_2, io_programCounterJump, _GEN_0) @[\\src\\main\\scala\\ProgramCounter.scala 15:43 16:19]
-    io_programCounter <= bits(ProgramNext, 15, 0) @[\\src\\main\\scala\\ProgramCounter.scala 23:23]
-    ProgramNext <= mux(reset, UInt<32>("h0"), _GEN_1) @[\\src\\main\\scala\\ProgramCounter.scala 14:{28,28}]
+    node _GEN_1 = mux(_T_2, io_programCounterJump, _GEN_0) @[\\src\\main\\scala\\ProgramCounter.scala 15:44 16:19]
+    io_programCounter <= ProgramNext @[\\src\\main\\scala\\ProgramCounter.scala 23:23]
+    ProgramNext <= mux(reset, UInt<16>("h0"), _GEN_1) @[\\src\\main\\scala\\ProgramCounter.scala 14:{28,28}]
 
   module DataMemory :
     input clock : Clock
@@ -640,7 +640,7 @@ circuit CPUTop :
     node _immediate_T_2 = bits(programMemory.io_instructionRead, 15, 0) @[\\src\\main\\scala\\CPUTop.scala 69:61]
     node immediate = cat(_immediate_T_1, _immediate_T_2) @[\\src\\main\\scala\\CPUTop.scala 69:22]
     node _alu_io_in2_T = mux(controlUnit.io_immediate, immediate, registerFile.io_regout3) @[\\src\\main\\scala\\CPUTop.scala 74:20]
-    node _dataMemory_io_address_T = bits(alu.io_result, 15, 0) @[\\src\\main\\scala\\CPUTop.scala 81:41]
+    node _dataMemory_io_address_T = bits(registerFile.io_regout1, 15, 0) @[\\src\\main\\scala\\CPUTop.scala 81:51]
     node _registerFile_io_writeSel_T = bits(programMemory.io_instructionRead, 20, 16) @[\\src\\main\\scala\\CPUTop.scala 88:16]
     node _registerFile_io_writeSel_T_1 = bits(programMemory.io_instructionRead, 25, 21) @[\\src\\main\\scala\\CPUTop.scala 89:16]
     node _registerFile_io_writeSel_T_2 = mux(controlUnit.io_readData, _registerFile_io_writeSel_T, _registerFile_io_writeSel_T_1) @[\\src\\main\\scala\\CPUTop.scala 86:34]

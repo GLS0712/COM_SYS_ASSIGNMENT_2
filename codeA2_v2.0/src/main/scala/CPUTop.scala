@@ -78,7 +78,7 @@ class CPUTop extends Module {
   )
 
   // Data memory
-  dataMemory.io.address := alu.io.result(15, 0)
+  dataMemory.io.address := alu.io.regout1(15, 0)
   dataMemory.io.dataWrite := registerFile.io.regout2
   dataMemory.io.writeEnable := controlUnit.io.writeData
 
